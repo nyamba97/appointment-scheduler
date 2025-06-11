@@ -1,6 +1,6 @@
-
-streamlit
+streamlit==1.35.0
+streamlit-authenticator==0.2.3
+PyYAML
+sqlite3
 pandas
-streamlit-authenticator
-pyyaml
-streamlit-calendar
+plotly

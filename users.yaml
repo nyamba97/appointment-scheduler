@@ -2,21 +2,20 @@ credentials:
   usernames:
     manager1:
       name: Owner
-      password: pbkdf2:sha256:260000$t4PgUYghWf7EkkWaTyh0pzPVnD4T6x9QoRBCz4H6Q0AasYiuhzTgzRHkJ3vwVd9d
+      password: '$2b$12$4n14N.dFyGc3eNQuK82tZeZtyAOnWA4kLoTkCufK9IpgCSt.KCtXG'  # hashed Ayalguu2025
       role: manager
     Tuul:
       name: Tuul
-      password: pbkdf2:sha256:260000$sj3RbDkCr0VdwqCD3EKCZo9HDW5TP9sIQvGHuwLhIqBv8jLuJ2U2F3JoHrCVjdEe
+      password: '$2b$12$wUCPN5j2AUswxdwF6rLg4esZBQHZbZuAjAxmdRXsb1K.2L1WuvPl2'  # hashed Tuul2025
       role: employee
     Dul:
       name: Dul
-      password: pbkdf2:sha256:260000$hWYgGB7eXlf8EF5kkgB7rMRzSDEs3EYkkT9UTWNEcMX9AP7fuvD8c7aKfzQ9Nwr2
+      password: '$2b$12$xV4HcXwz9L0sGAHwB/OdJOywIcHu8PMrgzyZx3IjHLvpiNLpiFrr2'  # hashed Dul2025
       role: employee
     amarlin:
       name: Amarlin
-      password: pbkdf2:sha256:260000$ZkCw3PXk6UxMXuJUpZkcfR6guHIsSk1RryGH2zkazToG4OhZbdTyMz8oskiyAdxL
+      password: '$2b$12$AfmQ0hiy03kTAPzX1zY6mu5lp.2Z6JTYn/hYPLuo2AsV0RxF7pnHa'  # hashed Amarlin2025
       role: employee
-
 cookie:
   name: appointment_cookie
   key: some_random_key
