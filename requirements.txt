@@ -1,5 +1,5 @@
-streamlit
+streamlit>=1.32
 pandas
 plotly
-PyYAML
-streamlit-authenticator
+pyyaml
+streamlit-authenticator==0.2.3
