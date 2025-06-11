@@ -1,5 +1,6 @@
-streamlit>=1.32
+
+streamlit
 pandas
-plotly
+streamlit-authenticator
 pyyaml
-streamlit-authenticator==0.2.3
+streamlit-calendar
