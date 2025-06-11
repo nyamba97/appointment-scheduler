@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    manager1:
+      name: Manager One
+      password: pbkdf2:sha256:260000$abc123$e57f9ad9d3e2...
+      role: manager
+    khaliun:
+      name: Khaliun
+      password: pbkdf2:sha256:260000$xyz456$e57f9ad9d3e2...
+      role: employee
+    amarlin:
+      name: Amarlin
+      password: pbkdf2:sha256:260000$uvw789$e57f9ad9d3e2...
+      role: employee
+cookie:
+  name: appointment_cookie
+  key: some_random_key
+  expiry_days: 30
