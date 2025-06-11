@@ -1,21 +1,20 @@
-
 credentials:
   usernames:
     manager1:
       name: Owner
-      password: '$pbkdf2-sha256$29000$manager-hash'
+      password: pbkdf2:sha256:260000$t4PgUYghWf7EkkWaTyh0pzPVnD4T6x9QoRBCz4H6Q0AasYiuhzTgzRHkJ3vwVd9d
       role: manager
     Tuul:
       name: Tuul
-      password: '$pbkdf2-sha256$29000$tuul-hash'
+      password: pbkdf2:sha256:260000$sj3RbDkCr0VdwqCD3EKCZo9HDW5TP9sIQvGHuwLhIqBv8jLuJ2U2F3JoHrCVjdEe
       role: employee
     Dul:
       name: Dul
-      password: '$pbkdf2-sha256$29000$dul-hash'
+      password: pbkdf2:sha256:260000$hWYgGB7eXlf8EF5kkgB7rMRzSDEs3EYkkT9UTWNEcMX9AP7fuvD8c7aKfzQ9Nwr2
       role: employee
     amarlin:
       name: Amarlin
-      password: '$pbkdf2-sha256$29000$amarlin-hash'
+      password: pbkdf2:sha256:260000$ZkCw3PXk6UxMXuJUpZkcfR6guHIsSk1RryGH2zkazToG4OhZbdTyMz8oskiyAdxL
       role: employee
 
 cookie:
